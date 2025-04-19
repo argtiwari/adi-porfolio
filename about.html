@@ -1,0 +1,18 @@
+<html> 
+
+<head> 
+	<style> 
+		.toBeReplaced span { 
+			display: none; 
+		} 
+		.toBeReplaced:after { 
+			content: "This text replaces the original."; 
+		} 
+	</style> 
+</head> 
+
+<body> 
+	<p class="toBeReplaced"><span>Old Text</span></p> 
+</body> 
+
+</html> 

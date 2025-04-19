@@ -1,0 +1,985 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap");
+@import url("//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+@import url(https://db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=Futura+LT+W01+Light+Oblique);
+
+body {
+  background-color: #ffffff;
+}
+
+.footer-social-links {
+  font-size: 14px;
+  text-align: end;
+  margin-right: 15%;
+  /* margin-top: 20 %; */
+}
+
+.footer-social-links a {
+  width: 25px;
+  height: 25px;
+  line-height: 25px !important;
+  position: relative;
+  margin: 0 5px;
+  text-align: center;
+  display: inline-block;
+  color: #111;
+
+  -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.footer-social-links a i,
+.footer-social-links a span {
+  position: relative;
+  top: 2px;
+  left: 1px;
+}
+
+.footer-social-links a:before {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 1px solid #111;
+
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+  -webkit-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -moz-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -o-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  -ms-transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+  transition: all 0.27s cubic-bezier(0.3, 0.1, 0.58, 1);
+}
+
+.footer-social-links a:hover {
+  color: #fff;
+}
+
+.footer-social-links a:hover:before {
+  background: #111;
+}
+
+.name {
+  text-align: center;
+}
+
+.name a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-decoration: none;
+  color: red;
+  background: transparent;
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  vertical-align: baseline;
+  font-family: wfont_b3fc4c_b7bbc57af8804b5f82b242ae1ac77791,
+    wf_b7bbc57af8804b5f82b242ae1, orig_great_vibes;
+  font-size: 43px;
+}
+
+/* a, abbr, acronym, address, applet, b, big, blockquote, button, caption, center, cite, code, dd, del, dfn, div, dl, dt, em, fieldset, font, footer, form, h1, h2, h3, h4, h5, h6, header, i, iframe, img, ins, kbd, label, legend, li, nav, object, ol, p, pre, q, s, samp, section, small, span, strike, strong, sub, sup, table, tbody, td, tfoot, th, thead, title, tr, tt, u, ul, var {
+      background: transparent;
+      border: 0;
+      margin: 0;
+      outline: 0;
+      padding: 0;
+      vertical-align: baseline;
+  }
+    */
+
+.navi {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 100px;
+  /* font-weight: 1.3; */
+  font-size: 20px;
+  border-bottom: 1px solid #111;
+  border-top: 1px solid #111;
+}
+
+.navi ul {
+  display: flex;
+  padding: 0px 120px 0px 120px;
+  list-style: none;
+  margin: 10px 0px 10px 0px;
+}
+
+.navi ul li {
+  /* color: #FF6633; */
+
+  text-decoration: dotted;
+  margin: auto;
+  text-decoration: NONE;
+}
+
+.navi a {
+  text-decoration: none;
+  color: gray;
+}
+
+.navi :hover {
+  color: #fe584c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.lo {
+  /* background-image: url(https://static.wixstatic.com/media/089f5f_c08cf158dd74444bb52bbd9895e4c709~mv2.jpg/v1/fill/w_1895,h_1283,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/089f5f_c08cf158dd74444bb52bbd9895e4c709~mv2.jpg); */
+  width: 1263px;
+  background-image: url(lite.webp);
+  /* filter: grayscale(blackandwhite); */
+  height: 1155px;
+  object-fit: cover;
+  object-position: 50% 50%;
+  /* width: 980; */
+  /* height : 855px; */
+  /* fetchpriority; high; */
+  display: flex;
+}
+
+/* .lo .wixui-rich-text__text {
+      font-size: 79px;
+      display: flex;
+      margin: 80px 0 0 250px;
+      font-family: 'Great Vibes';
+
+      color: red;
+      display: flex;
+      width: 394px;
+      height: 5px;
+
+    } */
+
+.lo .wixui-rich-text__text {
+  font-size: 79px;
+  margin: 80px 0 0 -222px;
+  display: flex;
+  color: red;
+  font-family: "Great Vibes";
+  width: 1210px;
+  height: 5px;
+  justify-content: flex-end;
+}
+
+/* body {
+      margin:0;
+      padding:0;
+      background: #dedede;
+    }
+     */
+.social_second {
+  position: relative;
+  top: 92%;
+  /* left:50%; */
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.social_second > li {
+  list-style: none;
+}
+
+.social_second > li > a {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  display: block;
+  text-align: center;
+  margin: 0 0px;
+  border-radius: 50%;
+  padding: 6px;
+  box-sizing: border-box;
+  text-decoration: none;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.3);
+  /* background: linear-gradient(0deg, #ddd, #fff); */
+  transition: 0.5s;
+}
+
+.social_second li a:hover {
+  /* box-shadow: 0 2px 5px rgba(0,0,0,0.3); */
+  text-decoration: none;
+}
+
+.social_second li a .fa {
+  /* widht: 100%; */
+  height: 100%;
+  display: block;
+  background: linear-gradient(0deg, #fffbfb, #807878);
+  border-radius: 50%;
+  /* background:#807878 ; */
+  line-height: calc(60px - 12px);
+  font-size: 24px;
+  color: #262626;
+  transition: 0.5s;
+}
+
+.social_second li:nth-child(1) a:hover .fa {
+  color: #3b5998;
+}
+
+.social_second li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+.social_second li:nth-child(3) a:hover .fa {
+  color: #d81b02;
+}
+
+.social_second li:nth-child(4) a:hover .fa {
+  color: #007bb6;
+}
+
+.social_second li:nth-child(5) a:hover .fa {
+  color: #d53956;
+}
+
+.scound {
+  color: gray;
+  display: flex;
+  display: flex;
+  margin: 170px 0 0 -220px;
+  align-items: first baseline;
+  font-size: 60px;
+  line-height: 55px;
+}
+
+.scound2 {
+  display: flex;
+  display: flex;
+  margin: 290px 0 0 00px;
+  align-items: first baseline;
+  height: 2px;
+  width: 420px;
+  line-height: 55px;
+  font-size: 60px;
+  color: gray;
+}
+
+.scound3 {
+  color: gray;
+  display: flex;
+  display: flex;
+  margin: 400px 0 0 -420px;
+  align-items: first baseline;
+  font-size: 60px;
+}
+
+.main2 {
+  display: flex;
+  height: 100%;
+  /* position: absol/ute; */
+  top: 0;
+  width: 100%;
+}
+
+.third {
+  background: #ff0000;
+  height: 631px;
+  width: 803px;
+}
+
+.third2 {
+  text-align: center;
+  align-items: center;
+  margin: auto;
+  height: 631px;
+  width: 660px;
+  background: #000;
+}
+
+.box1 {
+  font-family: playfair display, serif;
+  margin-top: 135px;
+  /* font-size: 90px; */
+  font-size: 127px;
+  line-height: 0.9em;
+  text-align: center;
+  pointer-events: auto;
+  overflow-wrap: break-word;
+  column-width: 490px;
+  --column-flex: 490;
+}
+
+.sign {
+  color: #212121;
+  margin-left: 393px;
+  margin-top: 50px;
+}
+
+@import url(https://db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=Futura+LT+W01+Light+Oblique);
+
+.sign_style {
+  font-weight: normal;
+  font-family: "Futura LT W01 Light Oblique";
+  /* normal normal normal 57px/1.4em  */
+}
+
+/* .fourth{
+      height:1236px;
+      width:916px ;
+    } */
+
+.look {
+  /* position: absolute; */
+  height: 900px;
+  display: flex;
+  width: 100%;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+img .india {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: fill;
+}
+
+.pic {
+  position: absolute;
+  height: 455px;
+  margin: 305;
+  width: 305px;
+
+  display: flex;
+  background: #000;
+  margin: 305px 0px 0px 200px;
+}
+
+.box_about {
+  height: 438px;
+  width: 568px;
+  background: #aaaaaab3;
+  margin: auto;
+  align-items: center;
+}
+
+.about_dance {
+  margin: 15px 0px 0px 180px;
+}
+
+.about_dance > h1 {
+  color: #808080;
+  margin-bottom: 40px;
+}
+
+.about_dance > h3 {
+  color: #808080;
+  font-size: 31px;
+  margin-bottom: 20px;
+}
+
+.about_dance > p {
+  color: #808080;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px;
+  width: 150px;
+  color: white;
+  font-weight: bolder;
+  background-color: #f50b0b;
+  border-radius: 5px;
+  /* box-shadow: rgb(20, 20, 20) 12px 3px 0px 3px; */
+}
+
+.button:hover {
+  background-color: #f48c8c;
+  color: #000;
+}
+
+.five {
+  height: 883px;
+  display: inline-block;
+  width: 1263px;
+  background: #ff0000;
+  margin: 0;
+}
+
+@import url(https://db.onlinewebfonts.com/c/6dd2f2510b4a00a5461b2455928209c2?family=Brandon+Grot+W01+Light);
+
+.head > h1 {
+  font-size: 65px;
+  height: 170px;
+  width: 530px;
+  margin: 100px 0 0 200px;
+  /* display: flex; */
+}
+
+.my_channel {
+  background-color: #ffffff;
+  /* YouTube's red color */
+  color: #000000;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: background-color 0.3s;
+  /* Smooth transition effect */
+  transition: ease-in-out 0.3s;
+  position: absolute;
+  padding: 12px;
+  width: 150px;
+  margin: -60px 0px 0px 560px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Style for the hover effect */
+.my_channel:hover {
+  /* text-replace: ; */
+  background-color: #ff0000;
+  /* Slightly darker shade of red */
+  color: white;
+}
+
+.vidio_img {
+  height: 440px;
+  width: 782px;
+  background: #000;
+  margin: 30px 0 0 100px;
+  color: white;
+  display: flex;
+  position: absolute;
+}
+
+.blog__play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.vidio_img .blog__play-button:before {
+  position: absolute;
+}
+
+.vidio_img .blog__play-button {
+  cursor: pointer;
+}
+
+.vidio_img .blog__play-button {
+  width: 90px;
+  height: 60px;
+  background-color: #ff0000;
+  box-shadow: 0 0 30px rgba(255, 255, 255, 0.6);
+  z-index: 1;
+  border-radius: 6px;
+}
+
+.vidio_img .blog__play-button,
+.vidio_img .blog__play-button:before {
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.vidio_img,
+.blog__play-button,
+.vidio_img .blog__play-button:before {
+  position: absolute;
+}
+
+.vidio_img .blog__play-button:before {
+  content: "";
+  border-style: solid;
+  border-width: 15px 0 15px 26px;
+  border-color: transparent transparent transparent #fff;
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.vidio_img,
+.blog__play-button {
+  cursor: pointer;
+}
+
+.pro_img {
+  display: flex;
+  position: absolute;
+  height: 320px;
+  width: 300px;
+  background: #aaaaaab3;
+  border-radius: 30%;
+  margin: -192px 0px 0px 750px;
+}
+
+.img_box {
+  display: flex;
+  position: absolute;
+  height: 320px;
+  width: 300px;
+  background: #ea0606b3;
+  border-radius: 30%;
+  margin: -192px 0px 0px 750px;
+}
+
+.pro_img img {
+  /* margin: -192px 0px 0px 750px; */
+  display: flex;
+  position: absolute;
+  height: 320px;
+  width: 300px;
+  background-color: rgb(232, 68, 68);
+  border-radius: 30%;
+  position: relative;
+  object-fit: cover;
+}
+
+.head > h3 {
+  height: 330px;
+  width: 240px;
+  display: contents;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.line {
+  /* font-family: "Brandon Grot W01 Light"; */
+
+  position: absolute;
+  font-size: 33px;
+  display: flex;
+  height: 340px;
+  line-height: 50px;
+  width: 265px;
+  margin: 170px 0 0 930px;
+}
+
+.borrr {
+  height: 365px;
+  width: 1263px;
+  background: #000000;
+}
+
+.event {
+  text-align: center;
+  color: white;
+  padding: 30px 0px 30px 0px;
+  font-size: 57px;
+}
+
+.event_box {
+  /* align-items: center; */
+  font-size: 26px !important;
+  box-sizing: border-box;
+  line-height: 1.5 !important;
+  /* margin: auto; */
+
+  background: rgb(213, 208, 208);
+  text-align: center;
+  padding: 60px 30px;
+  margin: 30px 100px;
+}
+
+.looks {
+  display: flex;
+  background: url(unnamed.jpg);
+  background-position: center;
+  background-size: cover;
+  width: 1263px;
+  height: 869px;
+  filter: grayscale(1);
+}
+
+.more_info {
+  display: inline-block;
+  margin: 520px 0px 30px 50px;
+}
+
+.bn54 {
+  border-radius: 30px;
+  left: 50px;
+  height: 54px;
+  width: 244px;
+  position: relative;
+  outline: none;
+  text-decoration: none;
+  border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  height: 45px;
+  width: 130px;
+  opacity: 1;
+  background-color: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.bn54 .bn54span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #000000;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.bn54:hover {
+  animation: bn54rotate 0.7s ease-in-out both;
+}
+
+.bn54:hover .bn54span {
+  animation: bn54storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+@keyframes bn54rotate {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(3deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-3deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+@keyframes bn54storm {
+  0% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+
+  25% {
+    transform: translate3d(4px, 0, 0) translateZ(0);
+  }
+
+  50% {
+    transform: translate3d(-3px, 0, 0) translateZ(0);
+  }
+
+  75% {
+    transform: translate3d(2px, 0, 0) translateZ(0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0) translateZ(0);
+  }
+}
+
+/* .lern_more {
+  
+  word-spacing: 7px;
+} */
+
+.lern_more:hover {
+  word-spacing: 2px;
+  background: #808080;
+  /* font-weight: bolder; */
+  font-size: 12px;
+}
+
+.headline {
+  /* display: flex; */
+  height: 280px;
+  font-family: Impact, "Arial Narrow Bold";
+  width: 574px;
+  font-size: 122px;
+  letter-spacing: normal;
+  line-height: 1.1em;
+  overflow-wrap: break-word;
+  text-align: start;
+  margin: 590px 40px 40px -130px;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 10px #000000, 0px 0px 20px #000000, 0px 0px 30px #000000,
+    0px 0px 40px #000000, 0px 0px 50px #000000, 0px 0px 60px #000000,
+    0px 0px 70px #000000;
+}
+
+.img_slider {
+  width: 1263px;
+  height: 649px;
+  background: white;
+}
+
+.mis_ing {
+  font-family: "Futura LT W01 Light Oblique";
+  /* font-family: light,light,sans-serif; */
+
+  text-align: center;
+  font-size: 35px;
+  line-height: 45px;
+  display: block;
+}
+
+.mis_ing h5 a {
+  color: red;
+}
+
+.img-slider {
+  position: relative;
+  width: 1236px;
+  /* Adjust the width as needed */
+  overflow-y: scroll;
+  margin: 30px;
+}
+
+.img-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+/* img  {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+} */
+.img1 {
+  flex: 0 0 25.33%;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  /* background-color: #aaaaaab3; */
+  border-radius: 50%;
+  margin-right: 80px;
+  /* Spacing between images */
+  /* position: relative; */
+}
+
+/* .dako{
+    height: 300px;
+    width: 100%;
+  overflow-x: scroll;
+  display: flex;
+  display: inline-block;
+
+} */
+
+.image {
+  /* flex-shrink: 0; */
+  display: flex;
+
+  width: 300px;
+  height: 30px;
+}
+
+/* img2 {
+  max-width: 100%;
+  max-height: 100%;
+  border-radius: 50%;
+}
+
+.scroll-arrows {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+} 
+
+.arrow {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 24px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-arrow {
+  margin-left: 10px;
+}
+
+.right-arrow {
+  margin-right: 10px;
+} */
+
+.friend {
+  background: #000;
+  height: 93px;
+  width: 100%;
+}
+
+.head_friend {
+  margin: auto;
+  height: 59px;
+  align-items: center;
+  padding-top: 20px;
+  width: 369px;
+}
+
+@font-face {
+  font-family: "Futura LT W01 Light Oblique";
+  src: url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.eot");
+  src: url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/9a7e574c3eda05d71d03345d3f9e268e.svg#Futura LT W01 Light Oblique")
+      format("svg");
+}
+
+@import url(https://db.onlinewebfonts.com/c/9a7e574c3eda05d71d03345d3f9e268e?family=Futura+LT+W01+Light+Oblique);
+
+.h1_top {
+  font-family: futura-lt-w01-light, sans-serif;
+  font-size: 45px;
+  color: rgb(248, 248, 248);
+  text-align: center;
+}
+
+footer {
+  width: 1263px;
+  height: 335px;
+  background: #ff0000;
+}
+
+.footer_box {
+  height: 335px;
+  width: 980px;
+  margin: auto;
+  /* border: 2px solid black; */
+  /* text-align: center; */
+  display: flex;
+}
+
+.first_footer {
+  /* display: flex; */
+  height: 290px;
+  width: 440px;
+  /* border: 3px solid red; */
+  margin: auto;
+  text-align: center;
+}
+
+.link {
+  height: 56px;
+  /* width: 310px; */
+  /* border: 1px solid black; */
+}
+
+.hii {
+  height: 40px;
+  margin: 20px;
+  background: red;
+  width: 242px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.hii:hover {
+  color: #000;
+  background: white;
+}
+
+.paper {
+  color: white;
+  font-size: large;
+  text-align: start;
+  margin: 15px;
+}
+
+.midia {
+  height: 32px;
+  width: 180px;
+  color: white;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  /* padding-top: 20px; */
+}
+
+.social_midia {
+  list-style: none;
+  display: flex;
+}
+
+.social_midia > li > a {
+  padding: 10px;
+  font-size: 25px;
+  color: rgb(0, 0, 0);
+}
+
+.social_midia li:nth-child(1) a:hover .fa {
+  color: #3b5998;
+}
+
+.social_midia li:nth-child(2) a:hover .fa {
+  color: #00aced;
+}
+
+.social_midia li:nth-child(3) a:hover .fa {
+  color: #d81b02;
+}
+
+.social_midia li:nth-child(4) a:hover .fa {
+  color: #007bb6;
+}
+
+.social_midia li:nth-child(5) a:hover .fa {
+  color: #d53956;
+}
+
+.gmail_box {
+  height: 60px;
+  width: 276px;
+  margin: auto;
+  margin-top: 40px;
+  color: white;
+  /* border: 1px solid black; */
+}
+
+.gmail_box > p {
+  margin-bottom: 10px;
+}
+
+.gmail_box > p > a {
+  text-decoration: none;
+  color: white;
+  font-size: large;
+}
